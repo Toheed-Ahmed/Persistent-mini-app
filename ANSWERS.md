@@ -2,7 +2,7 @@
 
 ## 1. How to run
 
-Prerequisite: install Python 3.14+ and make sure `python` is available in the terminal.
+Prerequisite: install Python 3.14 or newer and make sure `python` is available in the terminal.
 
 Steps:
 
@@ -20,7 +20,7 @@ Why this is the right fit:
 
 - Zero build step: no bundler, transpiler, or asset pipeline.
 - Zero third-party dependencies: nothing to install after Python itself.
-- Local persistence: SQLite gives durable storage in a single file.
+- Local persistence: SQLite gives duraclearble storage in a single file.
 - Portable: the app runs the same on a fresh Windows machine, a laptop, or a CI runner.
 - Easy to audit: the storage logic is concentrated in one small module, which is ideal for a technical assessment.
 
